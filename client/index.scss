@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: Montserrat;
   font-weight: 300;
 }
 
@@ -7,11 +9,15 @@ input {
   padding: 9px 25px;
   border-radius: 5px;
   text-transform: uppercase;
+  background-color: #b4b4ab;
+  border: 2px solid black;
+  font-weight: bold;
 }
 
 #balance {
-  border: 1px solid black;
-  background-color: white;
+  border: 2px solid black;
+  background-color: #b4b4ab;
+  font-weight: bold;
   margin: 10px 0;
   padding: 5px 0;
   &:before {
@@ -24,7 +30,7 @@ input {
   flex-wrap: wrap;
 
   > div {
-    background-color: #eee;
+    background-color: #2f2f31;
     margin: 20px;
     padding: 30px 50px;
     text-align: center;
@@ -32,6 +38,7 @@ input {
 
     h1 {
         margin: 0 0 20px;
+        color: #cecd24;
     }
   }
 }
@@ -45,9 +52,25 @@ input {
   padding: 9px 25px;
   font-size: 0.7em;
   letter-spacing: 0.7px;
-  background-color: #f58427;
+  background-color: #cecd24;
 
   &:hover {
     cursor: pointer;
   }
+}
+
+html {
+  background-color: #2f2f31;
+}
+
+#footer {
+  color: #cecd24;
+}
+
+.success {
+  background-color: #B8FFA3
+}
+
+.failure {
+  background-color: #FF8A8A
 }
